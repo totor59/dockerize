@@ -23,7 +23,7 @@ cat << EOF
 EOF
 
 ## USER PROMPT SECTION
-echo "What kind of shit do you want to deploy today?" 
+echo "What kind of stuff do you want to deploy today?" 
 select DISTRO in debian archlinux ubuntu centos
 do
 read -p "OK let's do that. How many $DISTRO do you want?" NUMBER
